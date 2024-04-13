@@ -10,7 +10,6 @@ My favorite thing about Cybersecurity is the constant cat and mouse game that ex
 ## Project - Operating System Bootloader and x86 kernel, May 2023 - Present
 This project creates a minimal operating system loader utilizing the UEFI Development Kit (EDK2) that loads a file from a storage location into memory and passes control to it. This file happens to be my own x86 operating system kernel that is in the very early stages of development.
 
-Project Page
-[github.com/hasselj/josdev-pub](github.com/hasselj/josdev-pub)
+Project Page - https://github.com/hasselj/josdev-pub
 
 ![Startup](bootloader/screenshots/qemu-osloader.png)
