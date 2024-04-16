@@ -17,7 +17,7 @@ Project Page - https://github.com/hasselj/josdev-pub
 ## Post - Analyzing the SigmaHQ open source rule set
 Sigma is a collection of open source vendor neutral cyber detection rules designed to help find potentially nefarious activity occurring on networks and host systems. Rules exist in several categories to include application, cloud, Linux, network, web, etc. Each rule has two main components, the metadata and the rule itself. While the rule is used to detect activity based on strings, the metadata is information about the rule itself such as who wrote it, contact information, and a status indicating the maturity level of the rule. Currently, the possible values for Status are  stable | test | experimental | deprecated | unsupported.
 
-Rules marked as stable have been in the community for a certain amount of time without any or an acceptable level of false positives reports. I thought it would be interesting to analyze a recent stable release of the Generic Detection Rule Set and see how many rules exist in each category and how many are marked as stable.
+Rules marked as stable have been in the community for a certain amount and have, in theory, been through some level of scrutiny or testing. I thought it would be interesting to analyze a recent stable release of the Generic Detection Rule Set and see how many rules exist in each category and how many are marked as stable.
 
 Using the data in the 2024-03-26 release,
 https://github.com/SigmaHQ/sigma/releases/tag/r2024-03-26
