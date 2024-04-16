@@ -132,6 +132,6 @@ Total percentage of rules marked stable: 2 %
 
 Hopefully as more people add new and refine existing rules, the stable rule percentages will increase over time.
 
-References:
-https://github.com/SigmaHQ/sigma/
+References:\
+https://github.com/SigmaHQ/sigma/ \
 https://sigmahq.io/docs/basics/rules.html#metadata-status
