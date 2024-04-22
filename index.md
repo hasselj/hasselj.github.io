@@ -12,7 +12,7 @@ This project creates a minimal operating system loader utilizing the UEFI Develo
 a file from a storage location into memory and passes control to it. This file happens to be my own x86
 operating system kernel that is in the very early stages of development.
 
-Project Page - https://github.com/hasselj/josdev-pub
+Project Page - [https://github.com/hasselj/josdev-pub](https://github.com/hasselj/josdev-pub)
 
 #### Overview of the filesystem as it relates to our bootable ISO file.
 ![High level overview](bootloader/screenshots/overview_bootable_iso_josdev.jpg)
