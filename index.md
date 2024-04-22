@@ -7,7 +7,7 @@ I have been in the Cybersecurity industry for over a decade and wanted to use th
 
 My favorite thing about Cybersecurity is the constant cat and mouse game that exists between attackers and defenders. From my experience as a software developer and Cybersecurity engineer, I have found detection engineering to be one of my strong suits. My goal is to take the conceptual thoughts I have in my head and turn them into tangible projects that allow me to learn the newest technologies while staying relevant in this rapidly changing field.
 
-## Project - Operating System Bootloader and x86 kernel
+## Project - Operating System Bootloader and x86 kernel, May 2023 - Present
 This project creates a minimal operating system loader utilizing the UEFI Development Kit (EDK2) that loads
 a file from a storage location into memory and passes control to it. This file happens to be my own x86
 operating system kernel that is in the very early stages of development.
@@ -21,7 +21,7 @@ Project Page - https://github.com/hasselj/josdev-pub
 ![Startup](bootloader/screenshots/qemu-osloader.png)
 
 
-## Post - Analyzing the SigmaHQ open source rule set
+## Post - Analyzing the SigmaHQ open source rule set, April 2023
 Sigma is a collection of open source vendor neutral cyber detection rules designed to help find potentially nefarious activity occurring on networks and host systems. Rules exist in several categories to include application, cloud, Linux, network, web, etc. Each rule has two main components, the metadata and the detection rule. While the rule is used to detect activity based on strings/boolean logic, etc., the metadata is information about the rule itself such as who wrote it, contact information, and a status indicating the maturity level of the rule. Currently, the possible values for Status are stable | test | experimental | deprecated | unsupported.
 
 Rules marked as stable have been in the community for a certain amount and have, in theory, been through some level of scrutiny or testing. I thought it would be interesting to analyze a recent stable release of the Generic Detection Rule Set and see how many rules exist in each category and how many are marked as stable.
